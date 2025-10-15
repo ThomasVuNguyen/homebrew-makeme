@@ -1,12 +1,12 @@
 class Makeme < Formula
   desc "AI-powered 3D object generator CLI"
   homepage "https://github.com/ThomasVuNguyen/MakeMe"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     on_arm do
       url "https://github.com/ThomasVuNguyen/MakeMe/releases/download/v#{version}/makeme-darwin-arm64.tar.gz"
-      sha256 "0883c318c48333b4e3af13045edf6fe04d4a900ec115aac2027125f4a990ea06"
+      sha256 "5337fa564092b7e1127c4dcdf13646eba684358868ec832608c36a7b9c46f4c2"
     end
   end
 
